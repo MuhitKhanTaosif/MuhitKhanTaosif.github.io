@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhit Khan Taosif | Frontend Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
     <style>
       /* Custom CSS */
       body {
@@ -93,16 +106,26 @@
             <a href="#home" class="nav-link text-gray-600 hover:text-gray-800"
               >Home</a
             >
-            <a href="#about" class="nav-link text-gray-600 hover:text-gray-800"
-              >About</a
-            >
             <a href="#skills" class="nav-link text-gray-600 hover:text-gray-800"
               >Skills</a
+            >
+            <a href="#about" class="nav-link text-gray-600 hover:text-gray-800"
+              >About</a
             >
             <a
               href="#projects"
               class="nav-link text-gray-600 hover:text-gray-800"
               >Projects</a
+            >
+            <a
+              href="#background"
+              class="nav-link text-gray-600 hover:text-gray-800"
+              >Background</a
+            >
+            <a
+              href="#services"
+              class="nav-link text-gray-600 hover:text-gray-800"
+              >Services</a
             >
             <a
               href="#contact"
@@ -130,19 +153,27 @@
             >Home</a
           >
           <a
-            href="#about"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-100"
-            >About</a
-          >
-          <a
             href="#skills"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-100"
             >Skills</a
           >
           <a
+            href="#about"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-100"
+            >About</a
+          >
+          <a
             href="#projects"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-100"
             >Projects</a
+          >
+          <a
+            href="#background"
+            class="nav-link text-gray-600 hover:text-gray-800"
+            >Background</a
+          >
+          <a href="#services" class="nav-link text-gray-600 hover:text-gray-800"
+            >Services</a
           >
           <a
             href="#contact"
@@ -165,9 +196,10 @@
               Full Stack Developer
             </h2>
             <p class="text-lg text-gray-500 mb-8 leading-relaxed">
-              I build beautiful, responsive web applications with modern
-              technologies. Passionate about creating intuitive user experiences
-              and solving complex problems.
+              I am a full-stack developer passionate about developing responsive
+              web applications using modern technologies. I Specialize in
+              creating intuitive user experiences and solving complex problems
+              from both the frontend and backend.
             </p>
             <div class="flex space-x-4">
               <a
@@ -202,78 +234,6 @@
         </div>
       </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-16 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
-          About Me
-        </h2>
-        <div class="flex flex-col md:flex-row items-center">
-          <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
-            <div class="relative w-64 h-64">
-              <div
-                class="absolute inset-0 bg-gray-300 rounded-lg transform rotate-3 opacity-30"
-              ></div>
-              <img
-                src="profile.jpg"
-                alt="Muhit Khan Taosif"
-                class="relative w-full h-full rounded-lg object-cover border-4 border-gray-200 shadow-sm"
-              />
-            </div>
-          </div>
-          <div class="md:w-2/3 md:pl-12">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Who I Am</h3>
-            <p class="text-gray-600 mb-6 leading-relaxed">
-              I'm a passionate frontend developer based in Dhaka, Bangladesh,
-              with expertise in building modern web applications. Currently
-              pursuing my Bachelor's degree in Computer Science at United
-              International University (2020-2025) with a CGPA of 3.2/4.0.
-            </p>
-            <p class="text-gray-600 mb-6 leading-relaxed">
-              I thrive on solving complex problems and creating intuitive user
-              experiences. My journey in web development started with a
-              fascination for how things work behind the scenes, which led me to
-              master both frontend and backend technologies.
-            </p>
-            <div class="grid grid-cols-2 gap-4 mb-8">
-              <div class="flex items-center">
-                <i class="fas fa-map-marker-alt text-gray-500 mr-2"></i>
-                <span class="text-gray-600">Dhaka, Bangladesh</span>
-              </div>
-              <div class="flex items-center">
-                <i class="fas fa-graduation-cap text-gray-500 mr-2"></i>
-                <span class="text-gray-600">BSc in Computer Science</span>
-              </div>
-              <div class="flex items-center">
-                <i class="fas fa-envelope text-gray-500 mr-2"></i>
-                <span class="text-gray-600">muhit.khan@example.com</span>
-              </div>
-              <div class="flex items-center">
-                <i class="fas fa-certificate text-gray-500 mr-2"></i>
-                <span class="text-gray-600">JavaScript Full Stack Mastery</span>
-              </div>
-            </div>
-            <div class="flex space-x-4">
-              <a
-                href="#"
-                class="btn-primary text-white px-6 py-2 rounded-md font-medium transition duration-300 flex items-center"
-              >
-                <i class="fas fa-download mr-2"></i> Download CV
-              </a>
-              <a
-                href="https://github.com/MuhitKhanTaosif"
-                target="_blank"
-                class="btn-secondary border-2 hover:bg-gray-50 px-6 py-2 rounded-md font-medium transition duration-300 flex items-center"
-              >
-                <i class="fab fa-github mr-2"></i> GitHub
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Skills Section -->
     <section id="skills" class="py-16 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -310,15 +270,20 @@
               <i class="fab fa-css3-alt text-gray-600 mr-2"></i> CSS3
             </div>
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600 flex items-center"
             >
+              <i
+                class="devicon-tailwindcss-plain text-2xl text-gray-500 mr-2"
+                title="Tailwind CSS"
+              ></i>
+
               Tailwind CSS
             </div>
-            <div
+            <!-- <div
               class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
             >
               Responsive Design
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -340,14 +305,32 @@
               <i class="fab fa-node-js text-gray-600 mr-2"></i> Node.js
             </div>
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600 flex items-center"
             >
+              <i
+                class="devicon-postgresql-plain text-xl text-gray-600 mr-2"
+                title="PostgreSQL"
+              ></i>
               PostgreSQL
             </div>
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600 flex items-center"
             >
+              <i
+                class="devicon-mysql-plain text-xl text-gray-600 mr-2"
+                title="MySQL"
+              ></i>
               MySQL
+            </div>
+            <div
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600 flex items-center"
+            >
+              <i
+                class="devicon-mongodb-plain text-xl text-gray-600 mr-2"
+                title="MongoDB"
+              ></i>
+
+              MongoDB
             </div>
             <div
               class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
@@ -380,34 +363,176 @@
               <i class="fab fa-figma text-gray-600 mr-2"></i> Figma
             </div>
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600 flex items-center"
             >
+              <i
+                class="devicon-postman-plain text-xl text-gray-600 mr-2"
+                title="Postman"
+              ></i>
               Postman
             </div>
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600 flex items-center"
             >
+              <i
+                class="devicon-dbeaver-plain colored text-xl text-gray-600 mr-2"
+                title="DBeaver"
+              ></i>
               DBeaver
             </div>
+          </div>
+        </div>
+        <div class="mb-12">
+          <h3
+            class="text-xl font-semibold text-gray-800 mb-4 flex items-center"
+          >
+            <i class="fas fa-brain text-gray-500 mr-3"></i>
+            Data Science & AI
+          </h3>
+          <div class="flex flex-wrap gap-3">
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center space-x-2"
             >
-              <i class="fas fa-brain text-gray-600 mr-2"></i> Machine Learning
+              <i
+                class="devicon-tensorflow-original text-xl"
+                title="TensorFlow"
+              ></i>
+              <span class="text-gray-700">TensorFlow</span>
             </div>
+
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center space-x-2"
             >
-              Computer Vision
+              <i class="devicon-pytorch-original text-xl" title="PyTorch"></i>
+              <span class="text-gray-700">PyTorch</span>
             </div>
+
             <div
-              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 text-gray-600"
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center space-x-2"
             >
-              Data Analysis
+              <i
+                class="devicon-scikitlearn-plain colored text-xl"
+                title="Scikit-learn"
+              ></i>
+              <span class="text-gray-700">Scikit-learn</span>
+            </div>
+
+            <div
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center space-x-2"
+            >
+              <i
+                class="devicon-opencv-plain colored text-xl"
+                title="OpenCV"
+              ></i>
+              <span class="text-gray-700">OpenCV</span>
+            </div>
+
+            <div
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center space-x-2"
+            >
+              <i
+                class="devicon-pandas-plain colored text-xl"
+                title="Pandas"
+              ></i>
+              <span class="text-gray-700">Pandas</span>
+            </div>
+
+            <div
+              class="skill-pill bg-gray-100 px-4 py-2 rounded-full shadow-sm border border-gray-200 transition duration-300 flex items-center space-x-2"
+            >
+              <i
+                class="devicon-numpy-original colored text-xl"
+                title="NumPy"
+              ></i>
+              <span class="text-gray-700">NumPy</span>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          About Me
+        </h2>
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+            <div class="relative w-64 h-64">
+              <div
+                class="absolute inset-0 bg-gray-300 rounded-lg transform rotate-3 opacity-30"
+              ></div>
+              <img
+                src="profile.jpg"
+                alt="Muhit Khan Taosif"
+                class="relative w-full h-full rounded-lg object-cover border-4 border-gray-200 shadow-sm"
+              />
+            </div>
+          </div>
+          <div class="md:w-2/3 md:pl-12">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Who I Am</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              I'm a passionate full-stack developer and fresh graduate based in
+              Dhaka, Bangladesh, with expertise in building modern web
+              applications. Recently completed my
+              <strong>Bachelor's degree in Computer Science</strong> at
+              <strong>United International University</strong> (2020-2025).
+            </p>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              I thrive on solving complex problems and creating intuitive user
+              experiences. My journey in web development started with a
+              fascination for how things work behind the scenes, which led me to
+              master both frontend and backend technologies. I'm eager to learn
+              and passionate about developing
+              <strong>AI-driven software solutions</strong>
+              that transform how users interact with technology.
+            </p>
+            <div class="grid grid-cols-2 gap-4 mb-8">
+              <div class="flex items-center">
+                <i class="fas fa-map-marker-alt text-gray-500 mr-2"></i>
+                <span class="text-gray-600">Dhaka, Bangladesh</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-graduation-cap text-gray-500 mr-2"></i>
+                <span class="text-gray-600">BSc in Computer Science</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-gray-500 mr-2"></i>
+                <a
+                  class="text-gray-600"
+                  href="mailto:muhitkhan.taosif@gmail.com"
+                  target="_blank"
+                >
+                  muhitkhan.taosif@gmail.com
+                </a>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-certificate text-gray-500 mr-2"></i>
+                <span class="text-gray-600">JavaScript Full Stack Mastery</span>
+              </div>
+            </div>
+            <div class="flex space-x-4">
+              <a
+                href="./A_S_M_Muhit_Khan_Resume.pdf"
+                target="_blank"
+                download
+                class="btn-primary text-white px-6 py-2 rounded-md font-medium transition duration-300 flex items-center"
+              >
+                <i class="fas fa-download mr-2"></i> Download CV
+              </a>
+              <a
+                href="https://github.com/MuhitKhanTaosif"
+                target="_blank"
+                class="btn-secondary border-2 hover:bg-gray-50 px-6 py-2 rounded-md font-medium transition duration-300 flex items-center"
+              >
+                <i class="fab fa-github mr-2"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="py-16 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -605,7 +730,8 @@
 
         <div class="text-center mt-12">
           <a
-            href="#"
+            href="https://github.com/MuhitKhanTaosif?tab=repositories"
+            target="_blank"
             class="border-2 border-blue-600 text-blue-600 hover:bg-gray-50 px-6 py-3 rounded-lg font-medium transition duration-300 inline-flex items-center"
           >
             <i class="fas fa-eye mr-2"></i> View All Projects
@@ -613,6 +739,300 @@
         </div>
       </div>
     </section>
+
+    <!-- Experience & Education -->
+    <section id="background" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          Experience & Education
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Experience -->
+          <div>
+            <h3
+              class="text-2xl font-semibold text-gray-800 mb-6 flex items-center"
+            >
+              <i class="fas fa-briefcase text-blue-500 mr-3"></i> Experience
+            </h3>
+
+            <div class="relative">
+              <!-- Timeline -->
+              <div
+                class="border-l-2 border-gray-500 absolute h-full left-4 top-0"
+              ></div>
+
+              <!-- Item 1 -->
+              <div class="mb-8 ml-8">
+                <div class="flex items-center mb-1">
+                  <div
+                    class="bg-blue-500 w-4 h-4 rounded-full absolute -left-1.5"
+                  ></div>
+                  <h4 class="text-lg font-semibold text-gray-800">
+                    Frontend Developer
+                  </h4>
+                </div>
+                <div class="text-gray-600 mb-1">Freelance</div>
+                <div class="text-sm text-gray-500 mb-2">2022 - Present</div>
+                <p class="text-gray-600">
+                  Developed responsive web applications for clients using React,
+                  JavaScript, and modern CSS frameworks.
+                </p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="mb-8 ml-8">
+                <div class="flex items-center mb-1">
+                  <div
+                    class="bg-blue-500 w-4 h-4 rounded-full absolute -left-1.5"
+                  ></div>
+                  <h4 class="text-lg font-semibold text-gray-800">
+                    HR & Treasurer
+                  </h4>
+                </div>
+                <div class="text-gray-600 mb-1">UIU Photography Club</div>
+                <div class="text-sm text-gray-500 mb-2">2021 - 2022</div>
+                <p class="text-gray-600">
+                  Managed club finances and human resources while organizing
+                  photography events and workshops.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div>
+            <h3
+              class="text-2xl font-semibold text-gray-800 mb-6 flex items-center"
+            >
+              <i class="fas fa-graduation-cap text-blue-500 mr-3"></i> Education
+            </h3>
+
+            <div class="relative">
+              <!-- Timeline -->
+              <div
+                class="border-l-2 border-gray-500 absolute h-full left-4 top-0"
+              ></div>
+
+              <!-- Item 1 -->
+              <div class="mb-8 ml-8">
+                <div class="flex items-center mb-1">
+                  <div
+                    class="bg-blue-500 w-4 h-4 rounded-full absolute -left-1.5"
+                  ></div>
+                  <h4 class="text-lg font-semibold text-gray-800">
+                    BSc in Computer Science
+                  </h4>
+                </div>
+                <div class="text-gray-600 mb-1">
+                  United International University
+                </div>
+                <div class="text-sm text-gray-500 mb-2">
+                  2020 - 2025 | CGPA: 3.2/4.0
+                </div>
+                <p class="text-gray-600">
+                  Specialized in software development, machine learning, and
+                  computer vision.
+                </p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="mb-8 ml-8">
+                <div class="flex items-center mb-1">
+                  <div
+                    class="bg-blue-500 w-4 h-4 rounded-full absolute -left-1.5"
+                  ></div>
+                  <h4 class="text-lg font-semibold text-gray-800">
+                    JavaScript Full Stack Mastery
+                  </h4>
+                </div>
+                <div class="text-gray-600 mb-1">CDIP Certification</div>
+                <div class="text-sm text-gray-500 mb-2">2022</div>
+                <p class="text-gray-600">
+                  Comprehensive training in full-stack JavaScript development
+                  including React, Node.js, and databases.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          What I Do
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Service 1 -->
+          <div
+            class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fas fa-server text-green-500 text-xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Full-Stack Solutions
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Building end-to-end web applications with FastAPI or Node.js,
+              using RESTful APIs, database connectivity with frontend
+              integration.
+            </p>
+
+            <div class="flex items-center space-x-6">
+              <i
+                class="devicon-docker-plain text-4xl text-gray-600"
+                title="Docker"
+              ></i>
+              <i
+                class="devicon-googlecloud-plain text-4xl text-gray-600"
+                title="Googel Cloud"
+              ></i>
+            </div>
+          </div>
+          <!-- Service 2 -->
+          <div
+            class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fas fa-code text-orange-500 text-xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Backend Development
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Building scalable server-side applications with Node.js, FastAPI,
+              and databases like PostgreSQL, focusing on efficient APIs and
+              seamless frontend integration.
+            </p>
+
+            <div class="flex items-center space-x-6">
+              <i
+                class="devicon-nodejs-plain text-4xl text-gray-600"
+                title="Node.js"
+              ></i>
+              <i
+                class="devicon-fastapi-plain text-4xl text-gray-600"
+                title="FastAPI"
+              ></i>
+              <i
+                class="devicon-postgresql-plain text-4xl text-gray-600"
+                title="PostgreSQL"
+              ></i>
+              <i
+                class="devicon-mysql-plain text-4xl text-gray-600"
+                title="MySQL"
+              ></i>
+            </div>
+          </div>
+          <!-- Service 3 -->
+          <div
+            class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fas fa-laptop-code text-blue-500 text-xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Frontend Development
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Developing responsive and interactive user interfaces using React,
+              JavaScript, modern CSS frameworks like Tailwind CSS, and
+              responsive design principles.
+            </p>
+
+            <div class="flex items-center space-x-6">
+              <i
+                class="devicon-react-original text-4xl text-gray-600"
+                title="React"
+              ></i>
+              <i
+                class="devicon-nextjs-plain text-4xl text-gray-600"
+                title="Next.js"
+              ></i>
+              <i
+                class="devicon-redux-original text-4xl text-gray-600"
+                title="Redux"
+              ></i>
+              <i
+                class="devicon-tailwindcss-original text-4xl text-gray-600"
+                title="tailwindcss"
+              ></i>
+            </div>
+          </div>
+          <!-- Service 4 -->
+          <div
+            class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fas fa-paint-brush text-purple-500 text-xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              UI/UX Implementation
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Transforming Figma designs into fully functional, accessible, and
+              pixel-perfect web interfaces with clean, responsive code.
+            </p>
+            <br />
+
+            <div class="flex items-center space-x-6">
+              <i
+                class="devicon-figma-plain text-4xl text-gray-600"
+                title="Figma"
+              ></i>
+            </div>
+          </div>
+          <!-- Service 4 -->
+          <div
+            class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fas fa-bolt text-yellow-500 text-xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Performance Optimization
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Ensuring fast loading times and smooth user experiences through
+              code optimization.
+            </p>
+            <br />
+
+            <div class="flex items-center space-x-6">
+              <i
+                class="devicon-redis-plain text-4xl text-gray-600"
+                title="redis"
+              ></i>
+              <i
+                class="devicon-nginx-original text-4xl text-gray-600"
+                title="nginx"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-16 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -638,7 +1058,13 @@
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg font-medium text-gray-800">Email</h4>
-                  <p class="text-gray-600">muhit.khan@example.com</p>
+                  <a
+                    class="text-gray-600"
+                    href="mailto:muhitkhan.taosif@gmail.com"
+                    target="_blank"
+                  >
+                    muhitkhan.taosif@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -658,7 +1084,13 @@
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg font-medium text-gray-800">LinkedIn</h4>
-                  <p class="text-gray-600">linkedin.com/in/muhitkhan</p>
+                  <a
+                    class="text-gray-600"
+                    href="https://linkedin.com/in/a-s-m-muhit-khan-3a8805237"
+                    target="_blank"
+                  >
+                    linkedin.com/in/a-s-m-muhit-khan-3a8805237
+                  </a>
                 </div>
               </div>
 
@@ -668,7 +1100,13 @@
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg font-medium text-gray-800">GitHub</h4>
-                  <p class="text-gray-600">github.com/MuhitKhanTaosif</p>
+                  <a
+                    class="text-gray-600"
+                    href="https://github.com/MuhitKhanTaosif"
+                    target="_blank"
+                  >
+                    github.com/MuhitKhanTaosif
+                  </a>
                 </div>
               </div>
             </div>
@@ -776,7 +1214,7 @@
         <div
           class="border-t border-gray-300 mt-8 pt-8 text-center text-gray-500"
         >
-          <p>&copy; 2023 Muhit Khan Taosif. All rights reserved.</p>
+          <p>&copy; 2025 Muhit Khan Taosif. All rights reserved.</p>
         </div>
       </div>
     </footer>
